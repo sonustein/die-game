@@ -1,3 +1,4 @@
+function StartGame(){
 var random1=(1+Math.floor(6*Math.random()));
 //console.log(random1);
 if(random1===1)
@@ -34,3 +35,4 @@ else if(random1<random2)
 document.querySelector("h1").innerHTML="Player 2 wins!🏆";
 else
 document.querySelector("h1").innerHTML="Match is drawn.";
+}
