@@ -12,6 +12,7 @@
 
 body {
   background-color: #393E46;
+  text-align: center;
 }
 
 h1 {
@@ -38,4 +39,14 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+.btn button{
+  border: none;
+  outline: none;
+  width: 7rem;
+  height: 2.5rem;
+  margin: 25px;
+  border-radius: 25px;
+  font-weight: bolder;
+  background-color: cadetblue;
 }
